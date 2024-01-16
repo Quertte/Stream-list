@@ -1,0 +1,12 @@
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    width: 25px;
+}
+
+.bold {
+    font-weight: 600;
+}

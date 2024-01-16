@@ -1,9 +1,16 @@
+import PeopleList from './components/PeopleList/PeopleList';
+import Navigation from './components/Naviration/Navigation';
+import { useState } from 'react';
+
 
 function App() {
+    const [viewMode, setViewMode] = useState('List');
+
     return (
-        <div >
-            Работает
-        </div>
+        <>
+            <Navigation viewMode={viewMode} setViewMode={setViewMode} />
+            <PeopleList viewMode={viewMode} />
+        </>
     );
 }
 

@@ -1,0 +1,22 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name" : "Бурунов Сергей Александрович",
+            "email": "expressTest@borvixa.sever",
+            "phone": "+7 112 02 02 02 1"
+        },
+        {
+            "id": 2,
+            "name" : "Петров Александр Андреевич",
+            "email": "traktorist300@borvixa.sever",
+            "phone": "+7 112 112 112 1"
+        },
+        {
+            "id": 3,
+            "name" : "Попов Роман Алексеевич",
+            "email": "muxi4@borvixa.sever",
+            "phone": "+7 666 66 66 66 6"
+        }
+    ]
+}

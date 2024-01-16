@@ -1,0 +1,29 @@
+.tile {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.tile:last-child {
+    margin-right: 0;
+}
+
+
+.li {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.span {
+    border-right: 1px solid black;
+    width: 33.3%;
+    padding: 10px;
+}
